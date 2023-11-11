@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARP Second Challenge</title>
+</head>
+<body style="background-color:silver; text-align:center; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; margin:auto; width:50%;">
+    <img src="https://i.imgur.com/K3gkbSU.png" alt="fake service logo" style="width: 500px; margin-top: 10px;">
+    <h1>Registrazione a Fake Notes</h1>
+    <p>Dedicaci 2 minuti per iscriverti al nostro servizio compilando il form sottostante per poter ascoltare tutta la tua musica preferita!</p>
+    <form onsubmit="alert('Registrazione avvenuta con successo!')">
+        <div style="margin-bottom: 5px;">
+            <input type="text" placeholder="Nome*" name="name" required>
+            <input type="text" placeholder="Cognome*" name="surname" required>
+        </div>
+        <div style="margin-bottom: 5px;">
+            <label for="birthday" style="font-size: 14px;">Data di nascita*: </label><input type="date" id="birthday" name="birthday" required>
+        </div>
+        <div style="margin-bottom: 5px;">
+            <input type="text" placeholder="Nome utente*" name="nickname" required>
+            <input type="password" placeholder="Password*" name="pw" required>
+        </div>
+        <div style="margin-bottom: 5px;">
+            <select name="Prefisso">
+                <option value="1">+39</option>
+                <option value="2">Altro</option>
+            </select>
+            <input type="tel" placeholder="Telefono" title="Inserisci il prefisso del tuo paese se si tratta di un numero straniero.">
+            <input type="email" placeholder="Indirizzo email*" name="email" required>
+        </div>
+        <div style="margin-bottom: 5px; margin-top: 10px; font-size: 14px;">
+            <span>Seleziona i tuoi generi preferiti (in questo modo potremo capire i tuoi gusti più facilmente):</span>
+            <br>
+            <input type="checkbox"><span>Rock</span>
+            <input type="checkbox"><span>Metal</span>
+            <input type="checkbox"><span>Pop</span>
+            <input type="checkbox"><span>Trap</span>
+            <input type="checkbox"><span>Rap</span>
+            <input type="checkbox"><span>House</span>
+            <input type="checkbox"><span>Country</span>
+            <input type="checkbox"><span>Jazz</span>
+            <input type="checkbox"><span>Blues</span>
+        </div>
+        <div>
+            <span style="font-size: 12px;">I campi contrassegnati con l'asterisco (*) sono obbligatori.</span>
+        </div>
+        <div style="margin-bottom: 5px;">
+            <input type="radio" name="serviceterms" required><span>Ho letto e accettato i <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Termini e le Condizioni del Servizio</a>.</span>
+        </div>
+        <div style="margin-bottom: 5px;">
+            <button type="submit">Invia registrazione</button>
+        </div>
+    </form>
+</body>
+</html>

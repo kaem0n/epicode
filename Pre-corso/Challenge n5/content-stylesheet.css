@@ -1,0 +1,60 @@
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-evenly;
+}
+
+.thumbnail {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 5px 40px 5px;
+}
+
+.preview {
+    position: relative;
+    color: white;
+}
+
+.preview div {
+    position:absolute;
+    background-color: black;
+    bottom: 20px;
+    right: 8px;
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 0px 2px;
+    cursor: pointer;
+}
+
+.preview img {
+    width: 100%;
+    max-width: 420px;
+    margin-bottom: 7px;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+.text {
+    width: inherit;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.text img {
+    width: 40px;
+    margin: 0;
+}
+
+.text div {
+    margin-left: 2px;
+}
+
+#thumb-title {
+    font-weight: bold;
+}
+
+#thumb-desc {
+    color: #636363;
+}

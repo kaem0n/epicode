@@ -1,2 +1,2 @@
 # epicode
-Progetti per il corso Full-stack developer di Epicode
+Progetti per il pre-corso Full-stack developer di Epicode
